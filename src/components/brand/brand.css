@@ -1,0 +1,20 @@
+.gpt_brand{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    /* margin: 2rem; */
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.gpt_brand div{
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+ .gpt_brand img {
+    width: 50px;
+    cursor: pointer;
+    margin: 2rem;
+}

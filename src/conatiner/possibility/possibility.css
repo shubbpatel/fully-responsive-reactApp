@@ -1,0 +1,77 @@
+.gtp_possibility{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 1rem; */
+
+}
+.gpt_image{
+
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem;
+    /* padding: 5rem; */
+
+/* width: 500.31px;
+height: 402.05px; */
+
+}
+.gpt_image img{
+    width: 100%;
+    height: auto;
+}
+.gpt_possibility_container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 2rem;
+    /* position: relative; */
+    /* bottom:33px; */
+/* line-height: 24px;
+max-width: 40%; */
+/* position: absolute; */
+/* margin-top: 40%; */
+
+}
+.gpt_possibility_container h1{
+    /* width: 426px;
+    height: 90px; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+    
+    /* font-family: 'Manrope'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+
+}
+.gpt_possibility_container h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #71E5FF;
+
+}
+.gpt_possibility_container p{
+    color: #81AFDD;
+}
+.gpt_possibility_container h4:last-child{
+    color: #FF8A71;
+
+}
+
+    @media (max-width: 1050px) {
+        .gtp_possibility{
+
+            flex-direction: column;
+        }
+        .gpt_possibility_container{
+            /* align-items: center; */
+        }
+    }
