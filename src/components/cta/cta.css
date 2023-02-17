@@ -1,0 +1,85 @@
+.gpt_cta_container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 2rem;
+border-radius: 10.7236px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    /* display: flex;
+    flex-direction: column; */
+}
+.content h6{
+    line-height: 30px;
+    color: black;
+}
+.content h2{
+    line-height: 45px;
+    color: black;
+
+}
+.button button{
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.7rem 1rem;
+    padding: 17px;
+    font-weight: 500;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 189.14px;
+
+
+}
+
+@media (max-width: 650px) {
+    .gpt_cta_container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .content h6{
+        line-height: 25px;
+    }
+    .content h2{
+        line-height: 35px;
+    }
+    .content{
+        align-items: center;
+    }
+    .button{
+        margin: 1rem 0 0  ;
+    }
+}
+@media (max-width: 500px){
+    .gpt_cta_container{
+        margin: .5rem;
+        padding: 1rem;
+        /* align-items: center; */
+    }
+    .content{
+        margin: 0.5rem;
+        /* align-items: center; */
+        /* justify-content: center; */
+
+    }
+    .content h2{
+        font-size: 18px;
+        line-height: 32px;
+    }
+  
+    .button{
+        margin: 0;
+    }
+    .button button{
+        font-size: 14px;
+        margin: 0;
+    }
+} 

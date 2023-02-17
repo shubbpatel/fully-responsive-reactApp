@@ -25,7 +25,7 @@ export default function Feature() {
 
 
   return (
-    <div className='gpt_feature_ section__padding' id="feature" >
+    <div className='gpt_feature_ section__padding' id="feature">
       <div className="gpt_feature_heading">
         <h1 className='gradient__text' >
         The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.

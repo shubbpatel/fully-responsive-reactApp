@@ -16,7 +16,7 @@ export default function Navbar() {
         <a href="possibility">Open Ai</a>
       </p>
       <p>
-        <a href="features">Case Studies</a>
+        <a href="feature">Case Studies</a>
       </p>
       <p>
         <a href="blog">Library</a>
